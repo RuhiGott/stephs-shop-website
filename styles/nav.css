@@ -1,0 +1,56 @@
+
+.nav-bar {
+    background-color: white;
+    height: 60px;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-family: "Bebas Neue";
+    font-size: 35px;
+    color: black;
+
+    background-color: #AEDBFC;
+    border-right: 1px solid black;
+
+    width: 218px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.cart-icon-container {
+    align-self: center;
+    margin-right: 38px;
+
+    cursor: pointer;
+}
+
+.cart-icon {
+    height: 28px;
+}
+
+@media (max-width: 670px) {
+    .nav-logo {
+        font-family: "Bebas Neue";
+        font-size: 31px;
+        color: black;
+    
+        background-color: #AEDBFC;
+        border-right: 1px solid black;
+    
+        width: 180px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        cursor: pointer;
+    }
+}

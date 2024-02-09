@@ -1,0 +1,127 @@
+.title {
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    color: black;
+    height: fit-content;
+    margin-left: 9%;
+    margin-top: 70px;
+    margin-bottom: 16px;
+}
+
+.cart-container {
+    margin-left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+    padding-right: 4%;
+    position: relative;
+}
+
+.cart-left {
+    position: relative;
+    width: 50%;
+    min-width: 290px;
+    max-width: 430px;
+}
+
+.cart-right {
+    position: relative;
+    width: 5%;
+    min-width: 290px;
+    max-width: 430px;
+}
+
+.cart-item {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    padding-bottom: 13px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cart-item-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.item-image {
+    width: 100px;
+}
+
+.trash {
+    width: 16px;
+    cursor: pointer;
+}
+
+.store {
+    font-family: "Assistant";
+    font-size: 13px;
+    color:#3F3F3F;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.price {
+    text-align: right;
+    font-family: "Assistant";
+    font-size: 13px;
+    color:#3F3F3F;
+    font-weight: 800;
+}
+
+.name, .email, .pickup-location {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color:#3F3F3F;
+    font-family: "Assistant";
+    font-size: 13px;
+    color:#3F3F3F;
+}
+
+form {
+    display: flex;
+    padding-bottom: 2px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.checkout {
+    display: flex;
+    font-family: "Assistant";
+    font-size: 13px;
+    color:#3F3F3F;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+
+.paypal {
+    border-radius: 0;
+    border: none;
+    background-color: rgb(181, 181, 181);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    width:100%;
+}
+
+@media (max-width: 1200px) {
+    .cart-container {
+        gap: 20%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .cart-container {
+        gap: 10%;
+    }
+}

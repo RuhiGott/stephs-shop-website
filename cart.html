@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Steph's Shop</title>
+    <title>Your Cart</title>
     <meta name="author" content="Ruhi Gottumukkala">
     <meta name="description" content="Check out some clothes!">
     <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="images/icons/favicon.png" />
 
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/cart.css">
     <link rel="stylesheet" href="styles/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,20 +26,33 @@
             Steph's Shop
         </a>
         <a href="cart.html" class="cart-icon-container">
-            <img class="cart-icon" src="images/icons/cart.png">
-            <div class="cart-quantity">0</div>
+            <img class="cart-icon" img src="images/icons/cart.png">
         </a>
     </div>
 
-    <div class="header">
-        <h1 href="https://fonts.gstatic.com" class="title">
-            Steph's Shop
-        </h1>
-        <div class="title-line"></div>
+    <h1 class="title">
+        Your Cart
+    </h1>
+    
+    <div class="cart-container">
+        <div class="cart-left"></div>
+    
+        <div class="cart-right">
+            <form>
+                <input type="text" class="name" placeholder="Name">
+                <input type="text" class="email" placeholder="Email">
+                <input type="text" class="pickup-location" placeholder="Pickup Location">
+            </form>
+        
+            <div class="checkout">
+                <p class="total">Total</p>
+                <p class="price">$30.00</p>
+            </div>
+
+            <button class="paypal">Checkout with PayPal</button>
+        </div>
     </div>
-
-    <div class="item-grid"></div>
-
+    
     <div class="footer">
         <div class="footer-title-div">
             <h2 class="footer-title">
@@ -60,7 +73,6 @@
 
     </div>
 
-    <script type="module" src="scripts/index.js"></script>
-
+    <script type="module" src="scripts/checkout.js"></script>
 </body>
 </html>

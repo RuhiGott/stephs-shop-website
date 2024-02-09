@@ -1,6 +1,6 @@
 .footer {
     height: 200px;
-    border-top: 1px solid black;;
+    border-top: 1px solid black;
 }
 
 .footer-title-div {
@@ -8,7 +8,7 @@
     flex-direction: column;
     gap: 3px;
     margin-top: 40px;
-    margin-left: 70px;
+    margin-left: 9%;
     margin-bottom: 15px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .contact-div {
-    margin-left: 70px;
+    margin-left: 9%;
     display: flex;
     align-items: center;
     
@@ -51,15 +51,12 @@
 
 @media (max-width: 670px) {
     .footer-title-div {
-        margin-left: 50px;
+        margin-left: 9%;
     } 
 
     .footer-title {
         font-size: 26px;
     }
 
-    .contact-div {
-        margin-left: 50px;
-
-    }
+  
 }

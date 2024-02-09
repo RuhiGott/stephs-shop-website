@@ -7,9 +7,28 @@
     margin-bottom: 80px;
 }
 
+.cart-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 30px;
+    background-color: #AEDBFC;
+
+    font-family: "Assistant";
+    font-size: 11px;
+    color:black;
+    text-align: center;
+
+    position: absolute;
+    top: -6px;
+    right: -8px;
+}
+
 .title {
     font-family: "Bebas Neue";
-    font-size: 80px;
+    font-size: 70px;
     color: black;
     height: fit-content;
 }
@@ -61,6 +80,7 @@
     width: 55px;
     height: 55px;
 
+    border: none;
     background-color: #AEDBFC;
     border-radius: 300px;
 
@@ -129,8 +149,6 @@
     .item-grid {
         margin-bottom: 100px;
     }
-
-    
 }
 
 @media (max-width: 670px){

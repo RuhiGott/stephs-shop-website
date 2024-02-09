@@ -6,17 +6,20 @@
 
     display: flex;
     justify-content: space-between;
+    top:0;
+    bottom: 0;
 }
+
 
 .nav-logo {
     font-family: "Bebas Neue";
-    font-size: 35px;
+    font-size: 32px;
     color: black;
 
     background-color: #AEDBFC;
     border-right: 1px solid black;
 
-    width: 218px;
+    width: 190px;
     
     display: flex;
     align-items: center;
@@ -28,7 +31,7 @@
 .cart-icon-container {
     align-self: center;
     margin-right: 38px;
-
+    position: relative;
     cursor: pointer;
 }
 
